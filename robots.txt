@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+Allow: /assets/
+
+User-agent: Baiduspider
+Allow: /
+Allow: /assets/
+
+User-agent: Googlebot
+Allow: /
+Allow: /assets/
+
+Host: www.lewy.com.cn
+Sitemap: https://www.lewy.com.cn/sitemap.xml

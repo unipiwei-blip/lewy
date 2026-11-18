@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" role="img" aria-label="胤真物业标志">
+  <rect x="2.5" y="2.5" width="59" height="59" rx="14" stroke="#1B5FD9" stroke-width="2.5"/>
+  <path d="M13 47V29L32 14L51 29V47" stroke="#081A38" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M32 29V47" stroke="#081A38" stroke-width="3.6" stroke-linecap="round"/>
+  <path d="M21 47H43" stroke="#081A38" stroke-width="3.6" stroke-linecap="round"/>
+  <circle cx="32" cy="14" r="4.2" fill="#F0A22E"/>
+</svg>
