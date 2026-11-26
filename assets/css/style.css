@@ -302,11 +302,13 @@ p { text-align: center; }
 }
 
 /* ---------- 全站文字居中统一 ---------- */
-.prose, .prose h3, .prose p, .prose ul, .prose li,
+.prose, .prose ul, .prose li,
 .split, .split > *, .split p, .check-list, .check-list li,
 .news-card, .news-card__body, .news-card p,
 .news-list a, .news-list p,
 .contact-lines, .contact-line, .contact-line span, .contact-line strong, .contact-line a { text-align: center; }
+.prose h3, .article-prose h3 { text-align: left; text-indent: 2em; }
+.prose p, .article-prose p { text-align: left; text-indent: 2em; }
 .check-list li::before, .prose li::before { position: static; display: inline-block; margin-right: 6px; }
 .news-list a:hover { transform: translateY(-3px) scale(1.005); }
 
@@ -348,7 +350,7 @@ p { text-align: center; }
 .article-pager a:hover { text-decoration: underline; }
 .article-prose { max-width: 900px; }
 .article-prose .eyebrow { text-align: center; }
-.article-prose h3 { margin-top: 30px; font-size: 26px; line-height: 1.5; text-align: center; color: var(--navy-900); }
+.article-prose h3 { margin-top: 30px; font-size: 26px; line-height: 1.5; text-align: left; text-indent: 2em; color: var(--navy-900); }
 .article-prose h3:first-of-type { margin-top: 8px; }
 .article-prose p { text-align: left; text-indent: 2em; color: var(--ink); font-size: 16px; line-height: 2; margin-top: 14px; }
 @media (max-width: 620px) {
